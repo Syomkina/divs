@@ -46,9 +46,9 @@ input:focus {
     border: 2px solid orange;
 }
 
-li:nth-child(even) {
+/* li:nth-child(even) {
     color:green;
-}
+} */
 a{
     display: block;
 }
@@ -56,6 +56,12 @@ a::after {
     display: block;
     content: '';
     width: 40px;
-    height: 10px;
+    height: 3px;
    background-color: yellow;
+}
+
+li:nth-child(odd) {
+    color: red ;
+    font-size: 17px;
+    font-weight: bold;
 }
